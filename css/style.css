@@ -13,6 +13,7 @@ body {
     margin-top: 300px;
     background-color: grey;
     border-radius: 10px; /* Set the border radius to your desired value */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719); /* Add box shadow with your desired parameters */
 }
 
 h1 {
@@ -63,11 +64,12 @@ input {
 }
 
 /* Media query for responsiveness */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .buttons-container {
         flex-direction: row; /* Keep buttons in a row on smaller screens */
         align-items: center; /* Center items horizontally */
         justify-content: space-between; /* Add space between buttons and input */
+        padding: 40px;
     }
 
     #btnSort,
